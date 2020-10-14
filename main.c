@@ -16,7 +16,7 @@ int main()
   cost = determineCost(usage, customerCode);
 
   printResults(cost, usage, customerCode, begMeterValue, endMeterValue);
-  
+ 
   return 0;   
 }// end main
 

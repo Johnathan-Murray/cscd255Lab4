@@ -2,7 +2,12 @@
 
 int readMeterValue(char * str)
 {
-return 0;
+int value;
+printf("please enter %s meter value: ", str);
+scanf("%d", &value);
+while(fgetc(stdin)!='\n'){}
+
+return value;
 }
 
 double determineUsage(int begMeterValue, int endMeterValue)
